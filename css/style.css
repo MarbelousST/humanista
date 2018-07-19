@@ -13,6 +13,25 @@ body {
   height: auto;
   width: 100%;
 }
+
+/* ejemplo diagonales */
+.colaboradores {
+  border: 1px solid black;
+  height: 100%;
+  overflow: hidden;
+}
+
+.col {
+  float: right;
+  width: auto;
+  height: 50%;
+  color: #f9f9f9;
+  /*   box-shadow: 8px 0px 5px rgba(0, 0, 0, 0.4); */
+  overflow: scroll;
+  display: block;
+  text-decoration: none;
+}
+
 .bg {
   display: block;
   background-size: cover;
@@ -23,8 +42,15 @@ body {
   margin: 0px 0px 0px -20%;
 }
 .img1 {
-  background-image: url("../img/Icono_Hmx.png");
+  background-image: url("../img/DanielHerrera-01.png");
 }
+.img2 {
+  background-image: url("../img/DanielHernandez-01.png");
+}
+.img3 {
+  background-image: url("../img/Jes-01.png");
+}
+/* ejemplo diagonales */
 
 #acerca_de {
   color: #000000;
