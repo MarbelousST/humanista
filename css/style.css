@@ -6,7 +6,12 @@
 body {
   font: 400 15px Lato, sans-serif;
   line-height: 1.8;
-  color: #818181;
+  color: #000000;
+}
+
+.logo_inicio {
+  height: auto;
+  width: 100%;
 }
 .bg {
   display: block;
@@ -58,7 +63,7 @@ h4 {
 }
 
 .container-fluid {
-  padding: 0px 5%;
+  padding: 0px 0px;
 }
 
 .bg-grey {
