@@ -18,16 +18,52 @@ body {
 }
 
 /* ejemplo diagonales */
+.publicaciones {
+  height: 100%;
+  overflow: hidden;
+  background-color: #000000;
+}
+
 .colaboradores {
+  height: 100%;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.conv_ev {
   height: 100%;
   overflow: hidden;
   background-color: #000000;
   z-index: 100;
 }
 
-.text-div {
+.text-polygon {
   color: #ffffff;
   text-align: center;
+  z-index: 110;
+}
+
+.poligono {
+  background: #303030;
+  height: 100vh;
+  width: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 25%, 0 20%);
+  position: relative;
+  text-align: center;
+}
+
+.poligono ul {
+  margin-top: 3%;
+}
+
+.categorias ul li {
+  color: black;
+  float: left;
+  width: 33.333%;
+  height: auto;
+  text-align: center;
+  align-self: center;
+  list-style: none;
 }
 
 .bg_inicio {
@@ -61,6 +97,20 @@ body {
 
 .cartel:hover {
   opacity: 0.7;
+}
+
+.img_colab_i {
+  background-image: url("../img/danielhernandez1.jpg");
+}
+.img_colab_f {
+  background-image: url("../img/Daniel_Herrera.JPG");
+}
+
+.img_publ_i {
+  background-image: url("../img/Sociedad.jpg");
+}
+.img_publ_f {
+  background-image: url("../img/violencia-01.png");
 }
 
 .img_conv_i {
